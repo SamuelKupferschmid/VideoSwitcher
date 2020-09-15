@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoSwitcher", "VideoSwitcher\VideoSwitcher.csproj", "{0F4AF702-4882-453C-B0C2-4E5F79210912}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoSwitcher.Core", "VideoSwitcher.Core\VideoSwitcher.Core.csproj", "{6C5C6B0F-A3BA-4E71-90D1-1D2AB0EF11B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoSwitcher.BMD", "VideoSwitcher.BMDSwitcher\VideoSwitcher.BMD.csproj", "{0098F264-4750-418A-8B98-63C0B0E15A02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F4AF702-4882-453C-B0C2-4E5F79210912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F4AF702-4882-453C-B0C2-4E5F79210912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F4AF702-4882-453C-B0C2-4E5F79210912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F4AF702-4882-453C-B0C2-4E5F79210912}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C5C6B0F-A3BA-4E71-90D1-1D2AB0EF11B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C5C6B0F-A3BA-4E71-90D1-1D2AB0EF11B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C5C6B0F-A3BA-4E71-90D1-1D2AB0EF11B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C5C6B0F-A3BA-4E71-90D1-1D2AB0EF11B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0098F264-4750-418A-8B98-63C0B0E15A02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0098F264-4750-418A-8B98-63C0B0E15A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0098F264-4750-418A-8B98-63C0B0E15A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0098F264-4750-418A-8B98-63C0B0E15A02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02431BF3-AA2C-4433-B235-F5C41118E98A}
+	EndGlobalSection
+EndGlobal

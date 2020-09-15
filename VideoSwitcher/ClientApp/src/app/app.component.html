@@ -1,0 +1,9 @@
+<div *ngFor="let switcher of switchers$ | async as switchers" class="switcher-card" [ngClass]="{'single': switchers.length === 1 }">
+  <h1>{{ switcher.productName }}</h1>
+  <div class="inputs-card">
+  <button *ngFor="let input of switcher.inputs" (click)="selectInput(switcher, input)"
+    [ngClass]="{ 'program-input': input.id === switcher?.currentProgramInput?.id}">
+    {{ input.name }}
+  </button>
+</div>
+</div>

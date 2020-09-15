@@ -1,0 +1,25 @@
+.switcher-card {
+    padding: 16px;
+    box-shadow: 0px 2px 4px #868E96;
+
+    &.single {
+        padding: 0;
+        box-shadow: none;
+    }
+}
+
+.inputs-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 2fr));
+    gap: 8px;
+
+    button {
+        height: 150px;
+        border-radius: 4px;
+        font-size: 20px;
+    }
+}
+
+.program-input {
+    background-color: #8fff94;
+}
